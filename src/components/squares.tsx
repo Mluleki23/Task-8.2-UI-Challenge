@@ -1,11 +1,20 @@
-import React from 'react'
-
-export default function Squares({title,subtitle,link}) {
+interface Props {
+  title: string;
+  subtitle: string;
+  link: string;
+  underlyingcolour: string;
+}
+export default function Squares({
+  title,
+  subtitle,
+  link,
+  underlyingcolour,
+}: Props) {
   return (
-    <div>
+    <div className="Squares">
       <h1>{title}</h1>
       <p>{subtitle}</p>
-      <a href={link}></a>
+      <a className={underlyingcolour}>{link}</a>
     </div>
-  )
+  );
 }

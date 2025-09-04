@@ -8,8 +8,11 @@ export default function Heading() {
       className="header"
       style={{
         backgroundColor: "#4CBEFC",
-        backgroundPosition: "center",
-        backgroundSize: "fill",
+        backgroundImage: `url(${headingBg})`,
+        backgroundPosition: "bottom",
+        backgroundSize: "cover",
+        height: "50vh",
+    
       }}
     >
       <div className="wrap-heading">
@@ -24,14 +27,9 @@ export default function Heading() {
         </div>
       </div>
 
-      <h1>WE ARE CREATIVES</h1>
+      <h1>WE  ARE CREATIVES</h1>
       <div className="arrow">
         <img src={arrow} alt="" />
-      </div>
-      <div className="wrapper">
-        <div className="img-container">
-          <img src={headingBg} alt="" width="100%" />
-        </div>
       </div>
     </div>
   );
