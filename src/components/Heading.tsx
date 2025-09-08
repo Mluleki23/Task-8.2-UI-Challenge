@@ -11,8 +11,7 @@ export default function Heading() {
         backgroundImage: `url(${headingBg})`,
         backgroundPosition: "bottom",
         backgroundSize: "cover",
-        height: "50vh",
-    
+        height: "80vh",
       }}
     >
       <div className="wrap-heading">
@@ -23,11 +22,13 @@ export default function Heading() {
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
-          <li>CONTACT</li>
+          <li className="contact-btn">
+            <button>CONTACT</button>
+          </li>
         </div>
       </div>
 
-      <h1>WE  ARE CREATIVES</h1>
+      <h1>WE ARE CREATIVES</h1>
       <div className="arrow">
         <img src={arrow} alt="" />
       </div>
