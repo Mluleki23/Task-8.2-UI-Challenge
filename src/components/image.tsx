@@ -4,11 +4,9 @@ interface Props {
 export default function Image({ image }: Props) {
   return (
     <div
+      className="image"
       style={{
         backgroundImage: `url(${image})`,
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        height: "100%",
       }}
     ></div>
   );

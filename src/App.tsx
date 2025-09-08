@@ -7,18 +7,16 @@ import Fruits from "./components/fruits";
 import ClientTestimonials from "./components/ClientTestimonials";
 import BottomImages from "./components/BottomImages";
 
-
 import "./App.css";
 import Gridboxes from "./components/Gridboxes";
-
 
 function App() {
   return (
     <>
-      <div className="row">
+      <div className="row h-80">
         <Heading />
       </div>
-      <div className="row h-15">
+      <div className="row h-15 h-60">
         <div className="col-50">
           <Squares
             title="Transform your brand"
@@ -87,21 +85,25 @@ function App() {
           />
         </div>
       </div>
-      <div className="row h-10">
-        <div className="col-25">
-          <BottomImages image="../src/assets/desktop/image-gallery-milkbottles.jpg" />
+      <div className="row h-10 image-row">
+        <div className="image-col">
+          <div className="col-25">
+            <BottomImages image="../src/assets/desktop/image-gallery-milkbottles.jpg" />
+          </div>
+          <div className="col-25">
+            <BottomImages image="../src/assets/desktop/image-gallery-orange.jpg" />
+          </div>
         </div>
-        <div className="col-25">
-          <BottomImages image="../src/assets/desktop/image-gallery-orange.jpg" />
-        </div>
-        <div className="col-25">
-          <BottomImages image="../src/assets/desktop/image-gallery-cone.jpg" />
-        </div>
-        <div className="col-25">
-          
-          <BottomImages image="../src/assets/desktop/image-gallery-sugarcubes.jpg" />
+        <div className="image-col">
+          <div className="col-25">
+            <BottomImages image="../src/assets/desktop/image-gallery-cone.jpg" />
+          </div>
+          <div className="col-25">
+            <BottomImages image="../src/assets/desktop/image-gallery-sugarcubes.jpg" />
+          </div>
         </div>
       </div>
+
       <div className="row h-5">
         <Footer />
       </div>
