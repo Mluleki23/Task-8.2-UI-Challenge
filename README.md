@@ -31,8 +31,8 @@ cd task-8-2-ui-challenge
 Make sure **Node.js 18+** and **npm** are installed, then run:
 ```bash
 npm install
-```
 
+```
 ### 3️⃣ Start the Development Server
 ```bash
 npm run dev
