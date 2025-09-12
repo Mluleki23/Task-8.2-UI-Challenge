@@ -1,7 +1,6 @@
 <img src="https://socialify.git.ci/Mluleki23/Task-8.2-UI-Challenge/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Task-8.2-UI-Challenge" width="640" height="320" />
 ```
-Here’s a **ready-to-copy README.md** tailored for your **task-8-2-ui-challenge** project.
-Paste the entire block below into a file named `README.md` in the project root.
+
 
 ````markdown
 # Task 8.2 – UI Challenge
