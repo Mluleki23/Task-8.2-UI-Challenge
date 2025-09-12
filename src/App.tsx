@@ -8,7 +8,7 @@ import ClientTestimonials from "./components/ClientTestimonials";
 import BottomImages from "./components/BottomImages";
 
 import "./App.css";
-import Gridboxes from "./components/Gridboxes";
+
 
 function App() {
   return (
