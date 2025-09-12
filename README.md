@@ -16,6 +16,9 @@ It features reusable components, flexible grid rows/columns, and a clean design 
 -  Custom grid system (`row`, `col-xx`) and plain CSS styling  
 - Responsive design to adapt to desktop and mobile viewports
 
+
+![desktop-design](https://github.com/user-attachments/assets/df06fd2b-0ce6-49f7-934c-021e464c7385)
+
 ---
 
 ##  Getting Started
