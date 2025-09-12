@@ -84,4 +84,4 @@ You are free to use, modify, and distribute it with attribution.
 
 ---
 
-**Happy coding and UI building! **
+
