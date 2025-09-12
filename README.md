@@ -21,7 +21,7 @@ It features reusable components, flexible grid rows/columns, and a clean design 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/task-8-2-ui-challenge.git
+git clone https://github.com/<Mluleki23>/task-8-2-ui-challenge.git
 cd task-8-2-ui-challenge
 ```
 
