@@ -22,31 +22,30 @@ It features reusable components, flexible grid rows/columns, and a clean design 
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/task-8-2-ui-challenge.git
+git clone https://github.com/Mluleki23/task-8-2-ui-challenge.git
 cd task-8-2-ui-challenge
 ```
-> Replace `<your-username>` with your GitHub username or the repository owner.
+> Replace `` with your GitHub username or the repository owner.
 
 ### 2️⃣ Install Dependencies
 Make sure **Node.js 18+** and **npm** are installed, then run:
-```bash
+```
 npm install
 
 ```
 ### 3️⃣ Start the Development Server
-```bash
-npm run dev
 ```
+npm run dev
 This launches the Vite dev server (default: [http://localhost:5173](http://localhost:5173)).
 
 ### 4️⃣ Build for Production
-```bash
+```
 npm run build
 ```
 Outputs an optimized build to the `dist/` folder.
 
 ### 5️⃣ Preview the Production Build
-```bash
+```
 npm run preview
 ```
 Serves the production build locally for testing.
